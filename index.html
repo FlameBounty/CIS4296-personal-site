@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script defer src="fontawesome/js/all.js"></script>
-    <title>John Doe</title>
+    <title>Kenneth Saltisky</title>
     <style>
         html,
         body {
             height: 100%;
-            font-family: 'Merriweather Sans', sans-serif;
+            font-family: 'Modern No. 20', sans-serif;
             scroll-behavior: smooth;
         }
 
@@ -54,6 +54,10 @@
         .contacticon a {
             color: rgb(33, 37, 41);
         }
+        
+        .headd {
+            color: darkblue;
+        }
 
         .course {
             margin: 0 10px;
@@ -77,12 +81,15 @@
         .next a {
             color: rgb(33, 37, 41);
         }
+        .thumbnails {
+            list-style: none;
+        }
     </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#landing">John Doe<span class="sr-only">(current)</span></a>
+        <a class="navbar-brand" href="#landing">Kenneth Saltisky<span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -96,6 +103,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#courses">Courses</a>
                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#images">Images</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
@@ -104,7 +114,7 @@
     </nav>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="landing">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm John!</h4>
+            <h4 class="display-4 headd font-weight-bold mx-auto text-center">Hello, I'm Kenneth!</h4>
         </div>
         <div class="row mx-auto">
             <h5 class="display-5 mx-auto faded text-center">I'm an Information Science & Technology Student at Temple
@@ -128,16 +138,28 @@
             <div class="col my-3"><img src="images/aspnet.jpg" class="lang" data-toggle="tooltip" data-placement="top"
                     title="ASP.NET" /></div>           
                      <div class="col my-3"><img src="images/mssql.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Microsoft SQL Server" /></div> <div class="col my-3"><img src="images/mongodb.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="MongoDB" /></div>
+                    title="Microsoft SQL Server" /></div>
 
         </div>
+
+        <div>
+            <div class="row mx-auto">
+                <h5 class="display-5 mx-auto faded text-center">Here's my current progress to graduation.</h5>
+            </div>
+            <div class="progress">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated " role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+            </div>
+        </div>
+
         <div class="row my-4">
             <div class="col">
                 <a href="#projects"><button type="button" class="btn btn-outline">Projects</button></a>
             </div>
             <div class="col">
                 <a href="#courses"><button type="button" class="btn btn-outline">Courses</button></a>
+            </div>
+            <div class="col">
+                <a href="#images"><button type="button" class="btn btn-outline">Images</button></a>
             </div>
             <div class="col">
                 <a href="#contact"><button type="button" class="btn btn-outline">Contact</button></a>
@@ -150,41 +172,36 @@
     </div>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="projects">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Projects</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center headd">Projects</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center mb-4">I've worked on some neat things.</h5>
+            <h5 class="display-5 mx-auto faded text-center mb-4">I've done some things.</h5>
         </div>
         <div class="row w-100">
-            <h5>Inspiro for Esperanza</h5>
+            <h5>Security+</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus nisi
-                in neque blandit auctor. Vestibulum pellentesque fringilla nulla quis sagittis. Donec id erat
-                sodales, fringilla est non, vestibulum tellus. Suspendisse potenti. Fusce et dolor blandit,
-                tincidunt eros non, pharetra orci. Donec massa neque, suscipit at purus ac, cursus tincidunt
-                purus. Suspendisse imperdiet massa nec sem dictum luctus. Vestibulum at porta lectus, sed
-                faucibus libero. </p>
+            <p class="text-justify">I have worked on several projects and gone through
+                several courses as part of my education for persuing a Security+ certification.
+            </p>
         </div>
         <div class="row w-100">
-            <h5>Work From Home Pinterest</h5>
+            <h5>Restaurant Website</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Vestibulum vulputate ullamcorper placerat. Fusce bibendum ligula non ex dapibus
-                finibus. Nulla facilisi. Integer eu libero lorem. Pellentesque eget pretium ligula. Donec finibus nibh
-                sed leo dapibus imperdiet. Fusce cursus eu mi sed porttitor. Aliquam eget suscipit dolor, ac mollis
-                risus. Vestibulum commodo turpis nulla, bibendum varius urna dictum porta. </p>
+            <p class="text-justify">I have created a restaurant website with an option for users
+                to print out what they are ordering as well as fill out generic options
+                for their food and drinks, including toppings.
+            </p>
         </div>
         <div class="row w-100">
-            <h5>Query Dating Site</h5>
+            <h5>Music Database Website</h5>
         </div>
         <div class="row w-100">
-            <p class="text-justify">Fusce egestas lectus ac est porttitor congue. Mauris lacinia pharetra odio ut
-                egestas. Nullam facilisis condimentum consequat. Integer arcu nibh, ullamcorper non fringilla quis,
-                tempus sit amet turpis. Proin ac gravida mi. Ut eros quam, pharetra venenatis pharetra at, porttitor sit
-                amet dolor. Ut et accumsan metus. Phasellus eros diam, tristique a maximus vel, fringilla eu nisl.
-                Pellentesque sed quam non urna dapibus porta in in nibh. Phasellus lobortis nibh est, id pretium orci
-                efficitur at. </p>
+            <p class="text-justify">I have created a website for displaying information regarding musical artists
+                from a backend database. This information is queryable and an auto-search function that modifies
+                the view containing database information as users search.
+            </p>
         </div>
         <div class="row mt-5 next">
             <a href="#courses" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
@@ -192,10 +209,10 @@
     </div>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="courses">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Courses</h4>
+            <h4 class="display-4 headd font-weight-bold mx-auto text-center">Courses</h4>
         </div>
         <div class="row mx-auto mb-4">
-            <h5 class="display-5 mx-auto faded text-center">Not as tasty as a main course, but close.</h5>
+            <h5 class="display-5 mx-auto faded text-center">Just a little flexing.</h5>
         </div>
         <div class="row w-100 justify-content-center my-3">
             <div class="col text-center course">
@@ -221,23 +238,56 @@
                 <h5>Database Management Systems</h5>
             </div>
         </div>
+        <div class="row w-100 justify-content-center my-3">
+            <div class="col text-center course">
+                <h5>IT Governance</h5>
+            </div>
+            <div class="col text-center course">
+                <h5>Systems and Infrastructure Lifecycle Management</h5>
+            </div>
+        </div>
+        <div class="row mt-5 next">
+            <a href="#images" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                    title="My Favorite Pictures"></i></a> </div>
+    </div>
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="images">
+        <div class="row mx-auto">
+            <h4 class="display-4 headd font-weight-bold mx-auto text-center">My Favorite Pictures</h4>
+        </div>
+        <div class="row mx-auto mb-4">
+            <h5 class="display-5 mx-auto faded text-center">Some of my favorite things, in thumbnail format!</h5>
+        </div>
+        <div>
+            <ul class="thumbnails">
+                <li class="span4" style="display: flex;">
+                    <div class="thumbnail" style="margin-left: 30px; margin-right: 30px;">
+                        <img data-src="holder.js/400x400" src="images/dragon.jpg" width="400px" height="400px" alt="">
+                        <h3>Dragon Picture</h3>
+                        <p style="width: 400px; word-wrap: break-word">One of my favorite images of a dragon that I found. The overall asethetic is incredible.</p>
+                    </div>
+                    <div class="thumbnail" style="margin-left: 30px; margin-right: 30px;">
+                        <img data-src="holder.js/400x400" src="images/forsen.jpg" width="400px" height="400px" alt="">
+                        <h3>This Guy</h3>
+                        <p "width: 200px;>Not too sure, but I think he is some kind of god of war.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
         <div class="row mt-5 next">
             <a href="#contact" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
                     title="Contact"></i></a> </div>
     </div>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="contact">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Feel Like Reaching Out?</h4>
+            <h4 class="display-4 headd font-weight-bold mx-auto text-center">Feel Like Reaching Out?</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center">I don't bite.</h5>
+            <h5 class="display-5 mx-auto faded text-center">My socials.</h5>
         </div>
         <div class="row my-4 contacticon">
-            <a href="mailto:johndoe@gmail.com" class="col mx-3"><i class="fas fa-envelope-square"
+            <a href="mailto:ksaltisky@gmail.com" class="col mx-3"><i class="fas fa-envelope-square"
                     data-toggle="tooltip" data-placement="top" title="Email"></i></a>
-            <a href="https://www.linkedin.com/in/johndoe/" class="col mx-3"><i class="fab fa-linkedin"
-                    data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a>
-            <a href="https://github.com/johndoe" class="col mx-3"><i class="fab fa-github-square"
+            <a href="https://github.com/FlameBounty" class="col mx-3"><i class="fab fa-github-square"
                     data-toggle="tooltip" data-placement="top" title="Github"></i></a>
 
         </div>
@@ -256,6 +306,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
+    <script type="text/javascript" src="js/holder.js"></script>
     <script>
         $(function () {
             $('[data-toggle="tooltip"]').tooltip()
